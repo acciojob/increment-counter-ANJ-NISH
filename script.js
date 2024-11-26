@@ -8,5 +8,5 @@ btn.addEventListener("click",
 						 let value=pele.textContent;
 						 let val=parseInt(value);
 						 alert(value);
-						 pele.textContent=toString(val+1);
+						 pele.textContent=(val+1);
 					 })
