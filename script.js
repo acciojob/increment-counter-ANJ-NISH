@@ -11,8 +11,8 @@ btn.addEventListener("click",
 						 let pele=document.getElementById("counter");
 						 let value=pele.textContent;
 						 let val=parseInt(value);
-						 alert(value.toString());
-						 pele.textContent=(val+1).toString();
+						 alert(val);
+						 pele.textContent=(val+1);
 					 })
 	}
 	);
