@@ -1,5 +1,9 @@
 //your JS code here. If required.
-let btn=document.getElementById("incrementBtn");
+
+document.addEventListener('DOMContentLoaded',(event)=>
+
+	{
+		let btn=document.getElementById("incrementBtn");
 
 btn.addEventListener("click",
 					 function()
@@ -8,5 +12,7 @@ btn.addEventListener("click",
 						 let value=pele.textContent;
 						 let val=parseInt(value);
 						 alert(value);
-						 pele.textContent=toString((val+1));
+						 pele.textContent=(val+1).toString();
 					 })
+	}
+	);
